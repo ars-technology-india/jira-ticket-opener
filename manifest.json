@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Jira Ticket Opener",
+    "version": "1.1",
+    "description": "Open Jira tickets by entering ticket numbers.",
+    "permissions": ["storage", "management"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "jira-opener.png",
+        "48": "jira-opener.png",
+        "128": "jira-opener.png"
+      }
+    }
+}
